@@ -36,8 +36,11 @@ function findTheCheese (foods) {
 function wordsWithB(words) {
   let barray = []
   for ( var i = 0; i < words.length; i++) {
-    if ()
+    if (words[i].startwith("b")) {
+      barray.push(words[i])
+    }
   }
+  return barray
 }
 
 
